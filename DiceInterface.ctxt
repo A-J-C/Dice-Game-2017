@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ haveRolled()
+comment0.text=\r\n\ @return\ true\ if\ and\ only\ if\ both\ of\ the\ dice\ have\ been\ rolled\r\n
+comment1.params=
+comment1.target=void\ roll()
+comment1.text=\r\n\ Roll\ both\ of\ the\ dice\r\n
+comment2.params=
+comment2.target=java.util.List\ getValues()
+comment2.text=\r\n\ @return\ four\ numbers\ if\ there\ is\ a\ double,\ otherwise\ two\r\n\r\n\ @throws\ NotRolledYetException\ if\ either\ of\ the\ dice\ have\ not\ been\ rolled\ yet\r\n
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\r\n\ clear\ both\ of\ the\ dice\ so\ they\ have\ no\ value\ until\ they\ are\ rolled\ again\r\n
+comment4.params=
+comment4.target=java.util.List\ getDice()
+comment4.text=\r\n\ Get\ the\ individual\ dice\ in\ a\ list.\r\n\r\n\ @return\ the\ Die\ objects\ in\ a\ list,\ which\ will\ have\ length\ 2\r\n
+numComments=5

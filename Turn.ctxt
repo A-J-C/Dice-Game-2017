@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Turn()
+comment1.params=move
+comment1.target=void\ addMove(MoveInterface)
+comment1.text=\ @param\ move\ to\ be\ added\ after\ the\ moves\ already\ defined\ in\ the\ current\ turn\r\n@throws\ IllegalTurnException\ if\ there\ are\ already\ four\ or\ more\ moves\ in\ the\ turn\ *
+comment2.params=
+comment2.target=java.util.List\ getMoves()
+numComments=3

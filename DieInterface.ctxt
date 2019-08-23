@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ hasRolled()
+comment0.text=\r\n\ @return\ false\ when\ first\ constructed\ or\ cleared,\ then\ true\ once\ rolled\ (unless\ it\ is\ then\ cleared)\r\n
+comment1.params=
+comment1.target=void\ roll()
+comment1.text=\r\n\ rolls\ the\ die\ to\ give\ a\ it\ a\ value\ in\ the\ range\ 1-6\r\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\r\n\r\n\ @return\ the\ visible\ face\ of\ the\ die,\ a\ value\ in\ the\ range\ 1-6\r\n\r\n\ @throws\ NotRolledYetException\ if\ the\ die\ has\ not\ been\ rolled\ or\ has\ been\ cleared\ since\ the\ last\ roll\r\n
+comment3.params=value
+comment3.target=void\ setValue(int)
+comment3.text=\r\n\ set\ the\ face\ value\ of\ the\ die\:\ only\ needed\ when\ recreating\ a\ game\ state\r\n\r\n\ @param\ value\ the\ new\ value\ of\ the\ die.\ If\ it\ is\ not\ in\ an\ acceptable\ range\ then\ afterwards\ hasRolled()\ should\ return\ false.\r\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\r\n\ clears\ the\ die\ so\ it\ has\ no\ value\ until\ it\ is\ rolled\ again\r\n
+comment5.params=seed
+comment5.target=void\ setSeed(long)
+comment5.text=\r\n\ sets\ the\ seed\ for\ the\ random\ number\ generator\ used\ by\ all\ dice\r\n\r\n\ @param\ seed\ the\ seed\ value\ to\ use\ for\ randomisation\r\n
+numComments=6

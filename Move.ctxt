@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Move()
+comment1.params=locationNumber
+comment1.target=void\ setSourceLocation(int)
+comment1.text=\ @param\ locationNumber\ represents\ the\ board\ position\ to\ move\ a\ piece\ from\r\n\ \ in\ the\ range\ 0-24.\ 0\ reresents\ off\ the\ board\ (the\ knocked\ location\ if\ there\ are\ pieces\ there,\ otherwise\ the\ off-board\ star\ location).\ A\ locationNumber\ of\ 1-24\ refers\ to\ locations\ on\ the\ board\ with\ 1\ being\ the\ first\ and\ 24\ being\ the\ last.\r\n@throws\ NoSuchLocationException\ if\ locationNumer\ is\ not\ in\ the\ range\ 0-24\ *
+comment2.params=
+comment2.target=int\ getSourceLocation()
+comment3.params=diceValue
+comment3.target=void\ setDiceValue(int)
+comment3.text=\ @param\ diceValue\ represents\ the\ value\ of\ the\ dice\ to\ be\ used\ in\ the\ move\ \r\n@throws\ IllegalMoveException\ if\ diceValue\ is\ not\ in\ the\ range\ 0-6\ \ *
+comment4.params=
+comment4.target=int\ getDiceValue()
+numComments=5
